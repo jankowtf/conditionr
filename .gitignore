@@ -1,0 +1,7 @@
+*.dll
+packrat/lib*/
+packrat/src
+*.Rhistory
+*.Rproj.user
+.*so
+.*o
