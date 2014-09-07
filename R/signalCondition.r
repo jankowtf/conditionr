@@ -83,8 +83,6 @@ setGeneric(
 #' @description 
 #' Signals custom conditions.
 #' 
-#' @template see-generic
-#' 
 #' @details
 #'   	The returned object will always inherit from class of object \code{condition}.
 #' 		The value of \code{condition} will always be the first entry/entries of the  

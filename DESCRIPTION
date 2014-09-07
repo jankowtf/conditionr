@@ -1,8 +1,8 @@
 Package: rapp.core.condition
 Type: Package
 Title: Custom conditions
-Version: 0.1.0.1
-Date: 2014-09-02
+Version: 0.1.0.2
+Date: 2014-09-08
 Author: Janko Thyson [aut, cre]
 Maintainer: Janko Thyson <janko.thyson@gmail.com>
 Description: Allows the creation of custom condition classes and the use of
