@@ -111,7 +111,7 @@ setGeneric(
 #' 		also inheriting from \code{\link{condition}} and depending on
 #' 		\code{type} also from \code{\link{message}}, \code{\link{warning}} or
 #' 		\code{\link{error}}.
-#' @example inst/examples/signalCondition.R
+#' @example inst/examples/signalCondition.r
 #' @seealso \code{
 #'    \link[rapp.core.condition]{signalCondition}
 #' }
@@ -237,7 +237,7 @@ setMethod(
 #'    \code{\link{RappDefaultWarning}} or \code{\link{RappDefaulError}} as well
 #' 		as from \code{\link{message}}, \code{\link{warning}} or
 #' 		\code{\link{error}} accordingly.
-#' @example inst/examples/signalCondition.R
+#' @example inst/examples/signalCondition.r
 #' @seealso \code{
 #'    \link[rapp.core.condition]{signalCondition}
 #' }
