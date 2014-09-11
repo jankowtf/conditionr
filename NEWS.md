@@ -1,0 +1,9 @@
+# CHANGES IN rapp.core.condition VERSION 0.1.0.3
+
+## NEW FEATURES
+
+## BUG FIXES
+
+## MAJOR CHANGES
+
+## MINOR CHANGES
