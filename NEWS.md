@@ -1,3 +1,19 @@
+# CHANGES IN rapp.core.condition VERSION 0.1.1.1
+
+## NEW FEATURES
+
+## BUG FIXES
+
+## MAJOR CHANGES
+
+## MINOR CHANGES
+
+## MISC
+
+- new patch version in order to comply repository conventions
+
+-----
+
 # CHANGES IN rapp.core.condition VERSION 0.1.1
 
 Frozen: yes
