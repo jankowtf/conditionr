@@ -1,3 +1,19 @@
+# CHANGES IN rapp.core.condition VERSION 0.1.1.2
+
+## NEW FEATURES
+
+## BUG FIXES
+
+## MAJOR CHANGES
+
+## MINOR CHANGES
+
+## MISC
+
+- tried out interaction with `rapp.core.rte` (v0.1.0.2)
+
+-----
+
 # CHANGES IN rapp.core.condition VERSION 0.1.1.1
 
 ## NEW FEATURES
