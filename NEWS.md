@@ -1,4 +1,32 @@
-# CHANGES IN rapp.core.condition VERSION 0.1.1.2
+# CHANGES IN VERSION 0.1.3
+
+## NEW FEATURES
+
+## BUG FIXES
+
+## MAJOR CHANGES
+
+## MINOR CHANGES
+
+## MISC
+
+-----
+
+# CHANGES IN VERSION 0.1.3
+
+## NEW FEATURES
+
+## BUG FIXES
+
+## MAJOR CHANGES
+
+## MINOR CHANGES
+
+## MISC
+
+-----
+
+# CHANGES IN conditionr VERSION 0.1.1.2
 
 ## NEW FEATURES
 
@@ -14,7 +42,7 @@
 
 -----
 
-# CHANGES IN rapp.core.condition VERSION 0.1.1.1
+# CHANGES IN conditionr VERSION 0.1.1.1
 
 ## NEW FEATURES
 
@@ -30,7 +58,7 @@
 
 -----
 
-# CHANGES IN rapp.core.condition VERSION 0.1.1
+# CHANGES IN conditionr VERSION 0.1.1
 
 Frozen: yes
 Corresponds to patch version: `v0.1.0.3'
@@ -45,7 +73,7 @@ Corresponds to patch version: `v0.1.0.3'
 
 -----
 
-# CHANGES IN rapp.core.condition VERSION 0.1.0.3
+# CHANGES IN conditionr VERSION 0.1.0.3
 
 ## NEW FEATURES
 

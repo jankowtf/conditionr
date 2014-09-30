@@ -55,8 +55,8 @@
 #' 		\code{\link{error}}.
 #' @example inst/examples/signalCondition.r
 #' @seealso \code{
-#' 		\link[rapp.core.condition]{signalCondition-character-method},
-#'   	\link[rapp.core.condition]{signalCondition-missing-method},
+#' 		\link[conditionr]{signalCondition-character-method},
+#'   	\link[conditionr]{signalCondition-missing-method},
 #' 		\link[base]{condition}
 #' }
 #' @template author
@@ -113,7 +113,7 @@ setGeneric(
 #' 		\code{\link{error}}.
 #' @example inst/examples/signalCondition.r
 #' @seealso \code{
-#'    \link[rapp.core.condition]{signalCondition}
+#'    \link[conditionr]{signalCondition}
 #' }
 #' @template author
 #' @template references
@@ -239,7 +239,7 @@ setMethod(
 #' 		\code{\link{error}} accordingly.
 #' @example inst/examples/signalCondition.r
 #' @seealso \code{
-#'    \link[rapp.core.condition]{signalCondition}
+#'    \link[conditionr]{signalCondition}
 #' }
 #' @template author
 #' @template references
