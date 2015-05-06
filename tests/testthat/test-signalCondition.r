@@ -1,4 +1,4 @@
-context("signalCondition-1")
+context("signalCondition")
 test_that("signalCondition", {
 
     expect_is(res <- signalCondition(), "RappDefaultMessage")
