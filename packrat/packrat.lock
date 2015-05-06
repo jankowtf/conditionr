@@ -1,0 +1,118 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.3.25
+RVersion: 3.2.0
+Repos: CRAN=http://cran.rstudio.com,
+    CRANextra=http://www.stats.ox.ac.uk/pub/RWin
+
+Package: R6
+Source: CRAN
+Version: 2.0.1
+Hash: 40dff191bf683de95a0b131f9509647e
+
+Package: RCurl
+Source: CRAN
+Version: 1.95-4.6
+Hash: f07380ac0925611455ecf9dcdb8be545
+Requires: bitops
+
+Package: Rcpp
+Source: CRAN
+Version: 0.11.6
+Hash: 193916618dce89b287517f457de8fa8b
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+Hash: 67d0775189fd0041d95abca618c5c07e
+
+Package: brew
+Source: CRAN
+Version: 1.0-6
+Hash: 931f9972deae0f205e1c78a51f33149b
+
+Package: devtools
+Source: CRAN
+Version: 1.7.0
+Hash: 2750a2c8e03d3cf682d5a8dedeeef3e5
+Requires: RCurl, digest, evaluate, httr, jsonlite, memoise, roxygen2,
+    rstudioapi, whisker
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+Hash: de202f956596a476d09304e3a2ebf1e5
+
+Package: evaluate
+Source: CRAN
+Version: 0.7
+Hash: a60973dc1469b851e9b099b7e47043b5
+Requires: stringr
+
+Package: httr
+Source: CRAN
+Version: 0.6.1
+Hash: eeb18e89b548705fede4db34ab01589b
+Requires: R6, RCurl, digest, jsonlite, mime, stringr
+
+Package: jsonlite
+Source: CRAN
+Version: 0.9.16
+Hash: 24d362a166a96ac1969e64ede522c717
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: memoise
+Source: CRAN
+Version: 0.2.1
+Hash: 812e6a1dd77a0ca4da41f3239de8e447
+Requires: digest
+
+Package: mime
+Source: CRAN
+Version: 0.3
+Hash: 629133973445ad75e5438a2bb6b05c17
+
+Package: packrat
+Source: github
+Version: 0.4.3-25
+Hash: 145364480ae13dd1b65c21fd871819526caef59f
+GithubRepo: packrat
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: 145364480ae13dd1b65c21fd871819526caef59f
+
+Package: roxygen2
+Source: CRAN
+Version: 4.1.1
+Hash: cb8a42732d3f42541c6f861352894a0e
+Requires: Rcpp, brew, digest, stringr
+
+Package: rstudioapi
+Source: CRAN
+Version: 0.3.1
+Hash: 88eea830c60277b858ce9334041b08bb
+
+Package: stringi
+Source: CRAN
+Version: 0.4-1
+Hash: 5f5be3e0eaf1ce0228196e80c47b0ab3
+
+Package: stringr
+Source: CRAN
+Version: 1.0.0
+Hash: 2676dd5f88890910962b733b0f9540e1
+Requires: magrittr, stringi
+
+Package: testthat
+Source: CRAN
+Version: 0.9.1
+Hash: b1375083546bc11c52a1af84098f995c
+Requires: digest
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
+Hash: 803d662762e532705c2c066a82d066e7
