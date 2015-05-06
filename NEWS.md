@@ -1,3 +1,37 @@
+# CHANGES IN VERSION 0.1.5
+
+## NEW FEATURES
+
+- Modified: `signalCondition()`
+    - Argument: `header`
+          More fine control for headers
+    - Argument: `time`
+          Suppress timestamp in prefix
+    - Argument: `pid`
+          Suppress PID in prefix
+    - Argument: `include_condition`
+          Suppress condition in prefix
+    - Unnamed message elements are not automatically treated as header anymore
+- New: `newMessage()`
+    Convenience wrapper around `signalCondition()` for `type = "message"`
+- New: `newWarning()`
+    Convenience wrapper around `signalCondition()` for `type = "warning"`
+- New: `newError()`
+    Convenience wrapper around `signalCondition()` for `type = "error"`
+    
+## BUG FIXES
+
+## MAJOR CHANGES
+
+- Modified: `signalCondition()`
+    - Changed default condition classes to `DefaultMessage`, `DefaultWarning`, `DefaultError` and `DefaultCondition`
+    
+## MINOR CHANGES
+
+## MISC
+
+----------
+
 # CHANGES IN VERSION 0.1.4
 
 ## NEW FEATURES

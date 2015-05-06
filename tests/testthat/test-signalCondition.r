@@ -1,20 +1,36 @@
 context("signalCondition")
+
 test_that("signalCondition", {
 
-    expect_is(res <- signalCondition(), "RappDefaultMessage")
+#     condition = "A"
+#     msg = "hello"
+#     msg = c("hello", "world")
+#     ns = NULL
+#     ns = "ns"
+#     call = sys.call()
+#     call = "foo()"
+#     type = c("message", "warning", "error", "condition")
+#     type = "message"
+#     signal = TRUE
+#
+#     header = FALSE
+#     time = FALSE
+#     pid = FALSE
+
+    expect_message(expect_is(res <- signalCondition(), "DefaultMessage"), "\\d+")
     expect_warning(
-      expect_is(res <- signalCondition(type = "warning"), "RappDefaultWarning")
+      expect_is(res <- signalCondition(type = "warning"), "DefaultWarning")
     )
     expect_error(res <- signalCondition(type = "error"))
-    
-    expect_is(res <- signalCondition(signal = FALSE), "RappDefaultMessage")
-    expect_is(res <- signalCondition(type = "warning", signal = FALSE), 
-      "RappDefaultWarning")
+
+    expect_is(res <- signalCondition(signal = FALSE), "DefaultMessage")
+    expect_is(res <- signalCondition(type = "warning", signal = FALSE),
+      "DefaultWarning")
     expect_is(res <- signalCondition(type = "error", signal = FALSE),
-      "RappDefaultError")
-    
-    expect_is(res <- signalCondition(
-      condition = "TestCondition"), "TestCondition")
+      "DefaultError")
+
+    expect_message(expect_is(res <- signalCondition(
+      condition = "TestCondition"), "TestCondition"))
     expect_true(inherits(res, "message"))
     expect_warning(
         expect_is(res <- signalCondition(
@@ -24,10 +40,10 @@ test_that("signalCondition", {
     )
     expect_true(inherits(res, "warning"))
     expect_error(res <- signalCondition(
-      condition = "TestCondition", 
+      condition = "TestCondition",
       type = "error")
     )
-    
+
     expect_is(res <- signalCondition(
         condition = "TestCondition",
         signal = FALSE
@@ -40,13 +56,13 @@ test_that("signalCondition", {
       ), "TestCondition")
     expect_true(inherits(res, "warning"))
     expect_is(res <- signalCondition(
-        condition = "TestCondition", 
+        condition = "TestCondition",
         type = "error",
         signal = FALSE
       ), "TestCondition"
     )
     expect_true(inherits(res, "error"))
-    
+
     expect_is(res <- signalCondition(
         condition = "TestCondition",
         msg = c("Header", "Line 1" = "line 1", "Line 2" = "line 2"),
@@ -61,7 +77,7 @@ test_that("signalCondition", {
       ), "TestCondition")
     expect_match(paste(res, collapse="\n"), "Line 1")
     expect_is(res <- signalCondition(
-        condition = "TestCondition", 
+        condition = "TestCondition",
         msg = c("Header", "Line 1" = "line 1", "Line 2" = "line 2"),
         type = "error",
         signal = FALSE
@@ -69,6 +85,7 @@ test_that("signalCondition", {
     )
     expect_match(paste(res, collapse="\n"), "Line 1")
     expect_true(inherits(res, "error"))
-    
+
   }
 )
+
